@@ -1,7 +1,16 @@
-body {
-    max-width: 960px;
+body{
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+}
+nav a{
     text-align: center;
-    }
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
