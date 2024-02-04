@@ -12,9 +12,16 @@ footer{
 }
 footer a{
     color:#ffb703;
+    text-decoration: none;
 }
 footer a:hover{
     color:#ffb703;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
 }
 nav a:hover{
     background-color:#219ebc;
@@ -23,6 +30,7 @@ nav a:hover{
 nav a{
     text-align: center;
     color:#ffb703;
+    text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -40,6 +48,7 @@ main section{
 .book, .join{
     background-color:#219ebc;
     color:#ffb703;
+    text-decoration: none;
 }
 .book:hover, .join:hover{
     background-color:#219ebc;
@@ -59,4 +68,13 @@ h4{
 }
 .msg p{
     color:#ffb703;
+}
+.icon{
+    width: 80px;
+}
+.logo{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
 }
