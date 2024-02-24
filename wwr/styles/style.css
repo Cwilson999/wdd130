@@ -127,7 +127,7 @@ h4{
 }
 #hero-msg{
     grid-column:2/3;
-    grid-row: 1/3;
+    grid-row: 1/2;
     margin-top: 100px;
 }
 #hero-msg h4{
@@ -153,10 +153,17 @@ h4{
 main section img{
     box-sizing: border-box;
 }
+.home-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+    
+
 .card-img, .mountains{
     width: 100%;
 }
-.rivers-card{
+.card-img,.rivers-card{
+    width: 100%;
     grid-column:2/4;
     grid-row: 2/3;
 }
@@ -174,6 +181,10 @@ main section img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #8ecae6;
 }
+
+
+
+
 @media screen and (max-width: 900px){
     #hero, .home-grid {
         display: block;
