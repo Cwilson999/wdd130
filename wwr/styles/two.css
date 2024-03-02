@@ -1,0 +1,20 @@
+header{
+    background-color:#219ebc;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color:#219ebc;
+    padding: 0;
+}
+footer{
+    background-color:#219ebc;
+    color:#ffb703;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
