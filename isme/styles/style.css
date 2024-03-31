@@ -94,6 +94,42 @@ footer{
     opacity: .6;
     transform: scale(1.1);
 }
+
+.tachineputa-card{
+    width: 100%;
+    grid-column:1/4;
+    grid-row: 2/3;
+    text-align:center;
+    font-family: century gothic;
+    padding-top: 30px;
+}
+
+.yellowstone-card{
+    max-width: 100%;
+    grid-column:5/7;
+    grid-row: 2/3;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 30px;
+}
+
+.filler-image{
+    max-width: 100%;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align:center;
+    font-family: century gothic;
+}
+
+
+
+
+
+
+
+
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
