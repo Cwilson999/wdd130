@@ -120,7 +120,42 @@ footer{
     text-align:center;
     font-family: century gothic;
 }
-
+.gym{
+    width: 100%;
+    grid-column:2/4;
+    grid-row: 3/4;
+    text-align:center;
+    font-family: century gothic;
+    padding-top: 50px;
+}
+.turkey{
+    max-width: 100%;
+    grid-column:2/4;
+    grid-row: 4/5;
+    text-align: center;
+    font-family: century gothic;
+}
+.gym-text{
+    grid-column: 5/7;
+    grid-row: 3/4;
+    font-family: century gothic;
+    padding-top:50px;
+}
+.turkey-text{
+    grid-column: 5/7;
+    grid-row: 4/5;
+    font-family: century gothic;
+}
+.hero-text{
+    font-family: century gothic;
+    text-align: center;
+    grid-column: 2/7;
+}
+.page-header{
+    text-align: center;
+    grid-column:2/7;
+    font-family: Lato, Helvetica, sans-serif
+}
 
 
 
